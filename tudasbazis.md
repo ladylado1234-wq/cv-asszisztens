@@ -33,7 +33,7 @@
 - Részt vett egy önkormányzati távhőrendelet megírásában; az önkormányzat 2025 júliusában elfogadta.
 - Megírt egy teljes üzletszabályzatot a belső szabályzatokkal és a külső jogszabályokkal összhangban; bevezetése folyamatban, várható hatálybalépése 2027. január 1.
 - Eljárásrend épületrészek távhőszolgáltatáshoz csatlakozására és leválására: célja, hogy a megfelelő információ a megfelelő időben jusson el a megfelelő emberhez. Word-sablonok (igénybejelentő, feltétellevél, kivitelezési hozzájárulás, megvalósulási jegyzőkönyv), folyamatleírás, folyamatábra, védett nyilvántartás. Mind a négy szolgáltatónál bevezetve. Tervezett továbbfejlesztés: a dokumentumok AI-alapú előállítása a sablonokból.
-- Számozott üzemeltetési és karbantartási szabályzatrendszer (ÜZEM-100, KARB-100) és üzemi naplók. Szabályozza a gyűjtendő adatok körét és gyakoriságát, a karbantartások ütemezését és a karbantartási tervek elkészítésének időpontját, a meghibásodások és a nem azonnali hibaelhárítás dokumentálását, az üzemzavari teendőket, valamint a munkavállalók végzettségeinek és vizsgáinak nyilvántartását, érvényességét és az ismétlő vizsgák ütemezését. Bevezetve a Veolia Energia öt távhőrendszerénél (Zirc, Cegléd, Budapest, Szilas-park, Algyő); továbbfejlesztése folyamatban, hogy a többi társaságnál is alkalmazható legyen.
+- Üzemeltetési és karbantartási szabályzatrendszer (ÜZEM-100, KARB-100) és üzemi naplók. Szabályozza a gyűjtendő adatok körét és gyakoriságát, a karbantartások ütemezését és a karbantartási tervek elkészítésének időpontját, a meghibásodások és a nem azonnali hibaelhárítás dokumentálását, az üzemzavari teendőket, valamint a munkavállalók végzettségeinek és vizsgáinak nyilvántartását, érvényességét és az ismétlő vizsgák ütemezését. Bevezetve a Veolia Energia öt távhőrendszerénél (Zirc, Cegléd, Budapest, Szilas-park, Algyő); továbbfejlesztése folyamatban, hogy a többi társaságnál is alkalmazható legyen.
 - ISO 9001, 14001, 37001, 45001 és 50001 szerint tanúsított környezetben dolgozik; auditált félként részt vett ISO 50001 és ISO 37001 auditokon.
 
 ## Saját digitális fejlesztések
@@ -74,4 +74,5 @@ Minden fejlesztést maga valósított meg, a rendelkezésére álló eszközökk
 
 ## Kapcsolat
 - E-mail: adrienn.ladonyi@gmail.com
+- LinkedIn: https://www.linkedin.com/in/adriennladonyi
 - Portfólió: https://claude.ai/artifact/QiRGfb67wkuPaR4gvht8Ap
