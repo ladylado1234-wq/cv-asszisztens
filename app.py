@@ -41,8 +41,8 @@ TEXT = {
         "ph": "Például: Milyen digitális eszközöket fejlesztett?",
         "limit": f"Elérted a kérdéskorlátot. További kérdésekkel keresd Adriennt: {CONTACT}",
         "error": "Az asszisztens most nem érhető el. Próbáld újra később, vagy írj Adriennek: " + CONTACT,
-        "examples": ["Milyen szerepet keres?", "Milyen digitális megoldásokat épített?",
-                     "Mi a vezetői tapasztalata?"],
+        "ref": "Referenciamunka: ezt az asszisztenst Ládonyi Adrienn AI-támogatással maga tervezte, építette és "
+               "telepítette, annak bemutatására, hogyan alkalmazza az AI-t a gyakorlatban.",
     },
     "en": {
         "title": "Ask my CV",
@@ -51,8 +51,8 @@ TEXT = {
         "ph": "For example: What digital tools has she built?",
         "limit": f"You have reached the question limit. Please contact Adrienn directly: {CONTACT}",
         "error": "The assistant is unavailable right now. Please try again later or email Adrienn: " + CONTACT,
-        "examples": ["What kind of role is she looking for?", "What digital solutions has she built?",
-                     "What is her leadership experience?"],
+        "ref": "Reference project: Adrienn Ládonyi designed, built and deployed this assistant herself with AI support, "
+               "to show how she applies AI in practice.",
     },
 }
 
@@ -71,6 +71,7 @@ if PHOTO.exists():
 else:
     st.title(t["title"])
     st.caption(t["intro"])
+st.info(t["ref"], icon="🛠️")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
@@ -80,14 +81,7 @@ for m in st.session_state.messages:
     with st.chat_message(m["role"]):
         st.markdown(m["content"])
 
-picked = None
-if not st.session_state.messages:
-    cols = st.columns(len(t["examples"]))
-    for col, ex in zip(cols, t["examples"]):
-        if col.button(ex, use_container_width=True):
-            picked = ex
-
-question = st.chat_input(t["ph"]) or picked
+question = st.chat_input(t["ph"])
 
 if question:
     if st.session_state.asked >= MAX_QUESTIONS:
